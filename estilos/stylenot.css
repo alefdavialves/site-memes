@@ -1,0 +1,37 @@
+body {
+
+background-color: black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header h1 {
+
+
+}
+
+main h3 {
+font-weight: bold;
+
+}
+
+main {
+
+    margin-left: 20px;
+
+}
+
+main p {
+
+text-indent: 15px;
+text-align: justify;
+
+}
