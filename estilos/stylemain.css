@@ -10,9 +10,9 @@
 header {
 
     background: linear-gradient(to bottom, rgba(128, 128, 128, 0.849), rgba(255, 255, 255, 0.918));
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
 
 
@@ -99,6 +99,29 @@ h1 {
     padding: 20px;
     width: 70vw;
     align-items: center;
+    transition: .3s;
+
+
+}
+
+.noticia:hover {
+
+    background-color: #1258c0;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.noticia:hover h3 {
+
+color: white;
+
+}
+
+.noticia:hover a {
+
+border: 1px solid white;
+color: white;
 
 
 }
