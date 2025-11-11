@@ -3,7 +3,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -44,7 +45,7 @@ li a {
 }
 
 li a:hover {
-    
+
     padding: 20px;
     background-color: #0d6efd;
     border-radius: 20px;
@@ -63,14 +64,12 @@ li img {
 
 
 
-
-
 main {
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -114,14 +113,14 @@ h1 {
 
 .noticia:hover h3 {
 
-color: white;
+    color: white;
 
 }
 
 .noticia:hover a {
 
-border: 1px solid white;
-color: white;
+    border: 1px solid white;
+    color: white;
 
 
 }
@@ -145,17 +144,15 @@ color: white;
 
 .titulonoticia {
 
-display: flex;
-flex-direction: column;
-width: 100%
-
-
+    display: flex;
+    flex-direction: column;
+    width: 100%
 }
 
 .titulonoticia a {
 
-  align-self: flex-end; 
-  margin-top: 10px;
+    align-self: flex-end;
+    margin-top: 10px;
 
 }
 
@@ -194,5 +191,5 @@ footer li {
 
     margin: 0 10px;
     color: #ffffff;
-    padding: 10px 10px 5px 10px ;
+    padding: 10px 10px 5px 10px;
 }
