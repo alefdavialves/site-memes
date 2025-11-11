@@ -3,14 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html,
 body {
     height: 100%;
     margin: 0;
 }
-
-
-
 
 header {
 
@@ -59,6 +55,14 @@ li img {
     width: 100px;
     height: 100px;
 
+
+}
+
+li a img {
+
+height: 15px;
+width: 20px;
+border-radius: 5px;
 
 }
 
