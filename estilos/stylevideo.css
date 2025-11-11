@@ -1,10 +1,11 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-html, body {
+body {
     height: 100%;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -26,13 +27,13 @@ ul li {
     list-style-type: none;
 }
 
-li a {
+nav li a {
     text-decoration: none;
     color: black;
     transition: .3s;
 }
 
-li a:hover {
+nav li a:hover {
     padding: 20px;
     background-color: #0d6efd;
     border-radius: 20px;
@@ -44,9 +45,8 @@ li img {
     height: 100px;
 }
 
-
-
 .banner{
+    background-color:aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,42 +54,80 @@ li img {
 
 
 .banner h1 {
+    color: #1258c0;
     padding: 30px;
     font-size: 3rem;
 }
 
-.banner img {
-    
+.banner img { 
     height: 100px;
     width: auto;
-    
     border-radius: 20px;
 }
 
-
-
-
 main {
    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-  justify-content: center;
-
+   justify-content: space-between;
+   padding: 2rem;
+   gap: 10rem;
+   justify-content: center;
 }
 
-.meme video{
-    height: 200px;
+.principal{
+    font-family: "DM Sans", sans-serif;
+}
 
+.principal h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
 
-    
-} 
+.principal p{
+    text-align: justify;
+    width: 100;
+    font-size: 20px;
+    margin: 0%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
+#texto{
+    height: 9rem;
+    align-items: center;
+    background-color:beige;
+    border-radius: 0px 0px 20px 20px;
+}
 
 .principal video{
     height: 500px;
-
 }
+
+.meme{
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.meme:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.meme video{
+    height: 200px;   
+} 
+
+
+
 
 
 
