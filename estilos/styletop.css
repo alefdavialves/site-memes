@@ -86,7 +86,7 @@ main {
 section {
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     margin: 0px 20px;
 
@@ -105,20 +105,24 @@ ol {
     padding: 10px;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+
     text-align: center;
 
     list-style: none;
     margin: 10px;
+    height: 300px;
 
 }
 
 div#primeiro {
-
+    
     border: 2px solid #FFD700;
 
-    margin-top: 0px;
+}
+
+div#primeiro:hover {
+
+    background-color: #FFD700;
 
 }
 
@@ -126,18 +130,29 @@ div#primeiro {
 div#segundo {
 
     border: 2px solid #C0C0C0;
+    height: 270PX;
+}
 
-    margin-top: 30px;
+div#segundo:hover {
+
+    background-color: #C0C0C0;
 
 }
+
 
 div#terceiro {
 
     border: 2px solid #b06d2a;
+    height: 240PX;
+}
 
-    margin-top: 60px;
+
+div#terceiro:hover {
+
+    background-color: #b06d2a;
 
 }
+
 
 
 .meme {
@@ -172,6 +187,12 @@ div#terceiro {
 
 }
 
+.meme:hover h3 {
+
+    color: white;
+
+}
+
 .meme img {
 
     margin-right: 20px;
@@ -180,12 +201,6 @@ div#terceiro {
     border-radius: 10px;
 
 }
-
-
-
-
-
-
 
 
 
