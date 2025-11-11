@@ -49,8 +49,8 @@ nav li img {
 
 
 
-.banner{
-    background-color:aliceblue;
+.banner {
+    background-color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@ nav li img {
     font-size: 3rem;
 }
 
-.banner img { 
+.banner img {
     height: 100px;
     width: 300px;
     border-radius: 20px;
@@ -71,60 +71,77 @@ nav li img {
 
 
 
+
 main {
-   display: flex;
-   justify-content: space-between;
-   padding: 2rem;
-   gap: 10rem;
-   justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    justify-content: center;
 }
 
-.principal{
+.principal {
     font-family: "DM Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
 
-.principal h2{
+.principal h2 {
+
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: left;
 }
 
-.principal p{
+.principal p {
     text-align: justify;
-    width: 100;
+
     font-size: 20px;
-    margin: 0%;
-    margin-left: 1rem;
     margin-right: 1rem;
+
+    padding: 10px;
+    width: 100%;
+    background-color: azure;
+
 }
 
-#texto{
-    height: 9rem;
-    align-items: center;
-    background-color:beige;
-    border-radius: 0px 0px 20px 20px;
-}
 
-.principal video{
+.principal video {
     height: 500px;
+    width: 100%;
 }
 
-.meme{
+
+
+
+.meme {
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
+
+    margin-bottom: 25px;
+}
+
+.meme a {
+
+    text-decoration: none;
+    color: black;
 }
 
 .meme:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-.meme video{
-    height: 200px;   
-} 
+.meme video {
+    height: 200px;
+}
 
 
 
@@ -163,5 +180,5 @@ footer li {
 
     margin: 0 10px;
     color: #ffffff;
-    padding: 10px 10px 5px 10px ;
+    padding: 10px 10px 5px 10px;
 }
