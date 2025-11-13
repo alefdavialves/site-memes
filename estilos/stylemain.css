@@ -1,16 +1,23 @@
-* {
+/* CONFIGURAÇÕES PADRÃO */
 
+
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+
     height: 100%;
     margin: 0;
 }
 
+/* CABEÇALHO */
+
+
 header {
 
     background: linear-gradient(to bottom, rgba(128, 128, 128, 0.849), rgba(255, 255, 255, 0.918));
+
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -22,6 +29,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
+
     margin: 0px;
 }
 
@@ -29,7 +37,6 @@ ul li {
 
     padding: 20px;
     list-style-type: none;
-
 }
 
 li a {
@@ -43,29 +50,29 @@ li a {
 li a:hover {
 
     padding: 20px;
-    background-color: #0d6efd;
     border-radius: 20px;
+
+    background-color: #0d6efd;
     color: white;
 
 }
 
 li img {
 
-
     width: 100px;
     height: 100px;
-
-
 }
 
 li a img {
 
-height: 15px;
-width: 20px;
-border-radius: 5px;
+    height: 15px;
+    width: 20px;
+    border-radius: 5px;
 
 }
 
+
+/* PRINCIPAL */
 
 
 main {
@@ -74,37 +81,53 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 main img {
 
     height: 100%;
     width: 100px;
-
 }
+
 
 h1 {
-    font-weight: bold;
-    font-size: 1.6em;
-    margin-bottom: 0px;
-    text-align: center;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www.anf.org.br/wp-content/uploads/2013/04/memes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
 }
+
 
 .noticia {
 
     display: flex;
+    align-items: center;
+
     border: 1px solid rgba(0, 0, 0, 0.227);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.275);
     border-radius: 10px;
+
     margin: 10px;
     padding: 20px;
     width: 70vw;
-    align-items: center;
+
     transition: .3s;
-
-
 }
 
 .noticia:hover {
@@ -112,21 +135,17 @@ h1 {
     background-color: #1258c0;
     color: white;
     border: 1px solid white;
-
 }
 
-.noticia:hover h3 {
+.noticia:hover h2 {
 
     color: white;
-
 }
 
 .noticia:hover a {
 
     border: 1px solid white;
     color: white;
-
-
 }
 
 .noticia img {
@@ -135,15 +154,12 @@ h1 {
     width: 180px;
     height: 130px;
     border-radius: 10px;
-
 }
 
-.noticia h3 {
+.noticia h2 {
 
     font-size: 1.4em;
     color: #0d6efd;
-
-
 }
 
 .titulonoticia {
@@ -157,11 +173,10 @@ h1 {
 
     align-self: flex-end;
     margin-top: 10px;
-
 }
 
 
-
+/* RODAPÉ */
 
 
 footer {
@@ -172,14 +187,16 @@ footer {
     justify-content: center;
 
     background-color: #1258c0;
-    text-align: center;
     margin-top: 30px;
+    height: 100px;
 }
 
 footer h3 {
-    margin-bottom: 0px;
+
     font-size: 1.2em;
     color: white;
+    padding-top: 18px;
+    font-weight: bold;
 }
 
 footer ul {
@@ -188,7 +205,6 @@ footer ul {
     align-items: center;
     justify-content: center;
     list-style: none;
-
 }
 
 footer li {
