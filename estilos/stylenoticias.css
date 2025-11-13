@@ -35,22 +35,6 @@ main {
     padding: 0px 40px;
 }
 
-#principal {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#informacao {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 40px;
-}
-
 main h1 {
 
     color: #1258c0;
